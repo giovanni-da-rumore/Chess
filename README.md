@@ -10,14 +10,14 @@ The game is built entirely in Ruby and uses Polymorphism, BFS, and DRy.
 
 Files of interest
 
-[Game.rb]: ./Game.rb
+[Game.rb](./Game.rb)
 
-[Board Class]: ./Board.rb 
+[Board.rb](./Board.rb) 
 
-[Pawn Class]: ./Pawn.rb
+[Pawn,rb](./Pawn.rb)
 
-[Queen Class]: ./Queen.rb
+[Queen Class](./Queen.rb)
 
-[Human Player Class]: //Human_Player.rb
+[Human Player Class](./Human_Player.rb)
 
 
