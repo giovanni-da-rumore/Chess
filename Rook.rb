@@ -15,8 +15,3 @@ class Rook < SlidingPiece
   end
 
 end
-
-#
-# r = Rook.new([0,0], "rook")
-#
-# p r.moves

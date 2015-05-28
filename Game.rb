@@ -1,8 +1,6 @@
 # encoding: utf-8
 require_relative 'Board'
 require_relative 'Human_Player'
-require 'colorize'
-require 'byebug'
 
 class Game
   attr_accessor :board, :player1, :player2
@@ -10,8 +8,6 @@ class Game
   def initialize(board = nil, player1, player2)
     if board.nil?
       @board = Board.populated_board
-    else
-      # YAML!
     end
 
     @player1 = player1
@@ -59,9 +55,9 @@ class Game
   end
 end
 
-#byebug
-p1 = HumanPlayer.new
-p2 = HumanPlayer.new
-
-g = Game.new( p1, p2 )
-g.play
+if __FILE__ == $0
+  p1 = HumanPlayer.new
+  p2 = HumanPlayer.new
+  g = Game.new( p1, p2 )
+  g.play
+end

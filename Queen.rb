@@ -13,7 +13,3 @@ class Queen < SlidingPiece
     DIAGONAL_DELTAS + HORIZONTAL_DELTAS + VERTICAL_DELTAS
   end
 end
-
-# q = Queen.new([0,0], "board")
-#
-# p q.moves

@@ -10,8 +10,6 @@ class Pawn < Piece
     first_white: [[-2,0], [-1,0], [-1, 1], [-1, -1]],
     black: [[1, 0], [1, -1], [1, 1]],
     white: [[-1,0], [-1, 1], [-1, -1]]
-    # white_attack: [[-1, 1], [-1, -1]]
-    # black_attack:  [[1, -1], [1, 1]]
   }
 
   def initialize(pos, color, board)
