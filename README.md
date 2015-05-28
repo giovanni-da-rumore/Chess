@@ -8,9 +8,9 @@ To play, clone the repository, cd into the cloned directory and run "ruby Game.r
 The game is built entirely in Ruby and uses Polymorphism, BFS, and DRy. 
 
 
-Files of interest: 
+Files of interest
 
-[Game Class]: ./Game.rb
+[Game.rb]: ./Game.rb
 
 [Board Class]: ./Board.rb 
 
