@@ -9,6 +9,7 @@ require_relative 'Bishop'
 require_relative 'Knight'
 require_relative 'Rook'
 require_relative 'Pawn'
+require 'colorize'
 
 class Board
   attr_accessor :grid
@@ -159,7 +160,8 @@ class Board
         if space.nil?
           temp_row << '-'
         else
-          temp_row << space.symbol
+          temp_row << space.symbol.colorize(:white) if space.color == :white
+          temp_row << space.symbol.colorize(:blue) if space.color == :black
         end
       end
       puts " #{idx + 1}: #{temp_row.join(' ')}"
